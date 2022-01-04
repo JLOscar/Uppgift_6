@@ -38,6 +38,7 @@ const useStyles = makeStyles({
   },
   dataContainer: {
     display: "flex",
+    flexDirection: "row",
     width: "100%",
     justifyContent: "space-around",
   },
