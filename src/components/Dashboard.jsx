@@ -113,6 +113,7 @@ export const Dashboard = () => {
       {countryCode && (
         <img
           src={`https://flagpedia.net/data/flags/w580/${countryCode.toLowerCase()}.png`}
+          alt="Could not find flag"
           className={classes.flag}
         ></img>
       )}

@@ -27,6 +27,7 @@ const CASES_API = "https://corona-api.com";
 export const CoronaCases = ({ countryCode }) => {
   const classes = useStyles();
   const [cases, setCases] = useState();
+
   useEffect(() => {
     if (!countryCode) {
       return;
